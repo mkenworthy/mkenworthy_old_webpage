@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Searching for Exorings</title>
+
+<link rel="stylesheet" href="tufte.css"/>
+<link rel="stylesheet" href="latex.css"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<article>
+  <section>
+
+<h1 id="Exorings">Exorings</h1>
+      <p class="subtitle">Searching for ring systems in transit.</p>
+
+<p>Planets condense from giant disks of gas and dust orbiting their parent star, and in the process, they form smaller circumplanetary disks of material themselves. There is a brief period of time when moons start to form in this circumplanetary disk, carving out ring-like gaps. These huge structures can be seen casting shadows across the Galaxy, and we are beginning to detect these systems. Currently we are searching for a repeating system so that we can plan detailed observations during the next transit.</p>
+
+<p>Our initial discovery was the giant ring system seen towards the young star J1407, and we built a dedicated observatory called bRing to look for circumplanetary material towards the young exoplanet Beta Pictoris b. My graduate student Dirk van Dam is searching archival data looking for the tell-tale signatures of more transiting ring systems.</p>
+
+<h2 id="bring">The bRing Project</h2>
+
+<p class="subtitle">Looking at one star continuously for over one year</p>
+
+<p>In 2017 and the start of 2018, the circumplanetary environment of the gas giant exoplanet Beta Pictoris b crossed in fromt of the bright young star Beta Pictoris, a naked eye 4th magnitude star in the Southern skies. We wanted to see if any circumplanetary material crossed in front of the star over this 300 day period, and so I started the bRing project.</p>
+
+<p>The <bold>Beta Pictoris b ring (bRing)</bold> project is a small observatory in a washing machine sized box that contains two telephoto lenses with support computers, covering the path of Beta Pictoris across the Southern hemisphere. The design builds on the heritage gained in Leiden from the MASCARA all sky surveys. To get longitudinal coverage, two separate bRing cameras were built (one by Leiden Observatory for South Africa and one by University of Rochester for Australia) and the data is combined with MASCARA South to provide redundant coverage. The photometric precision is 0.5% with 5 minutes of data.</p>
+
+<h2>The J1407 eclipse</h2>
+
+<p>There are five papers on the J1407b system:</p>
+
+  * {{:papers:2012aj....143...72m.pdf|Paper I - Mamajek, Pecault, Quillen et al. (2012)}} The discovery of the eclipses
+  * {{:papers:2014mnras.441.2845v.pdf|Paper II - van Werkhoven, Kenworthy and Mamajek (2014)}} Improving the photometry of the eclipse
+  * {{:papers:mnras-2015-kenworthy-411-27.pdf|Paper III - Kenworthy et al. (2015)}} The search for the companion J1407b
+  * {{::ms.pdf|Paper IV - Kenworthy and Mamajek (2015)}} Modeling the giant exorings around J1407b
+  * {{::1609.08485.pdf|Paper V - Rieder and Kenworthy (2016)}} Constraints on the size and dynamics of the J1407b ring system - as seen on {{ ::20161013_nytimes_rieder_j1407.jpg?linkonly |nytimes.com front page on 2016 Oct 13}}
+
+<p>The computer code used in Paper IV for this model is at <a href="http://github.com/mkenworthy/exorings">on GitHub in the exorings repo</a>.</p>
+
+<center>
+<iframe src="//player.vimeo.com/video/117757625?loop=1" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117757625">Exoring model for J1407b</a> from <a href="http://vimeo.com/user34427434">Matthew Kenworthy</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</center>
+
+{{::j1407_ring_system_animation.mpg.zip|Zipped mpg version of the animation}} |
+{{::kenworthy_j1407b_exoring_animation.mp4.zip|Mac Keynote QuickTime compatible version of the animation}}
+
+{{::j1407b_travel_poster_small.jpeg?nolink&300|J1407b Exoring Travel Poster}}
+
+The J1407b Exoring Travel Poster by [[http://www.space-art.co.uk/|Mark Garlick]] - [[http://www.redbubble.com/people/magarlick/works/14837819-travel-poster-j1407b?p=poster|buy it here!]]
+
+
+<p>J1407 is a 0.9 Solar mass, 16 million year old star that is part of the Sco-Cen OB Association. Due to its youth, it is slightly hotter and brighter than you would expect for a nearly Solar mass star - it will eventually settle down onto the Main Sequence near the Sun's present position.</p>
+
+<p>The star is about 133 parsecs away in the Southern hemisphere, and is a 12th magnitude star. Most of the time, it has an almost constant brightness. There is a small (4%) variation in its brightness every 3.2 days, almost certainly due to star spots on its surface rotating in and out of our view.</p>
+
+<p>Other than its young age, there's nothing particularly distinctive about it - which was all the more surprising when in 2007 there was the eclipse.</p>
+
+<p>In April and May 2007, this star started dimming irregularly over a two month period, with sudden and dramatic changes in its brightness occasionally happening over a few hours. At the midpoint of these two months, the star faded by over a factor of 20 in brightness before gradually coming back to full brightness a month later.</p>
+
+<p>In 2010, <a href="http://www.pas.rochester.edu/~emamajek/">Eric Mamajek</a> and <a href="http://rumtph.org/pecaut/">Mark Pecaut</a> discovered this star and its unusual behaviour whilst looking for new members of the Sco Cen OB Association. They used an exoplanet detection camera array called <a href="http://www.superwasp.org/">SuperWASP</a>, which has been taking data for the past eight years. The SuperWASP team released over 18 million light curves of stars into <a href="http://exoplanetarchive.ipac.caltech.edu/docs/SuperWASPMission.html">a public searchable database</a>, and Mamajek and Pecaut had used this to look for evidence of star spots on their candidate stars.</p>
+
+<p>The most likely explanation of the light curve is that there is an unseen low mass companion orbiting around the star J1407 (which we call J1407b) and that this companion has a giant ring system orbiting around it. This ring system is far bigger than the rings orbiting around Saturn, and these rings passed in front of the star just like the Moon moving in front of our Sun during a solar eclipse. We can calculate how large the ring system is from the shape and duration of the light curve seen in 2007.</p>
+
+<p>We made a model of the giant ring system which is consistent with the May 2007 light curve. The ring system is about 1.2 AU in diameter - if these rings were put around Saturn, they would be about 14 times the diameter of the full Moon. We would probably see them during the day from Earth. There are many rings in the model, which implies that there are moons forming around J1407B. This must have happened in our Solar system for the gas giants too. One gap we see in the ring model can be explained with a moon that is no more than 2 Earth masses, and its orbital period around J1407b is about 2 years.</p>
+
+  {{ ::j1407_ronmiller_2015.jpg?300 |}} **Caption:** Artist’s conception of the extrasolar ring system circling the
+  young giant planet or brown dwarf J1407b. The rings are shown eclipsing
+  the young sun-like star J1407, as they would have appeared in early
+  2007. The best fit model is consistent with a system of at least 30
+  rings, and there are gaps where satellites (“exomoons”) may have already
+  formed. Credit: Ron Miller
+
+  {{ ::j1407_ronmiller_2015_saturn.jpg?300 |}} **Caption:** Same as Figure 1, but with Saturn and its ring system to scale
+  (in upper right quadrant). Credit: Ron Miller.
+
+
+  {{ ::2014-12-16_08.42.20.jpg?300 |}} **Caption:** The rings around J1407b are so large that if they were put
+  around Saturn, we could see the rings at dusk with our own eyes and
+  camera phones. Here the rings are seen in the skies of Leiden, above the
+  Old Observatory. Credit: M. Kenworthy/Leiden.
+
+  {{ :2014-12-16_08.37.30.jpg?300 |}} **Caption:** The rings around J1407b are so large that if they were put
+  around Saturn, we could see the rings at dusk with our own eyes and
+  camera phones. Here the rings are seen in the skies of Leiden, above the
+   Academiegebouw. Credit: M. Kenworthy/Leiden.
+
+<p>Last updated around mid-June 2019.</p>
+
+</section>
+
+  </body>
+</html>
