@@ -26,49 +26,30 @@
 
 <h2>Direct Imaging of Exoplanets</h2>
 
-<p>Graduate student <a href="https://home.strw.leidenuniv.nl/~bohn/">Alex Bohn</a> is carrying out a survey for directly imaged exoplanets using the VLT instrument SPHERE. We have a sample of 56 young stars from the Sco-Cen association that were identified by Eric Mamajek and Mark Pecaut.</p>
+<p>Graduate student <a href="https://home.strw.leidenuniv.nl/~bohn/">Alex Bohn</a> is carrying out a survey for directly imaged exoplanets using the VLT instrument SPHERE, called the Young Sun Exoplanet Survey (YSES). We have a sample of 72 young stars from the Sco-Cen association that were identified by Eric Mamajek and Mark Pecaut.</p>
 
 <p>Starting in 2017, we have surveyed all the stars for a first epoch measurement and are now starting the second epoch observations. Amongst the candidate exoplanets Alex discovered a new circumstellar disk, detailed in Bohn et al 2019 A&A.</p>
 
 <h2 id="Coronagraphs">Making Coronagraphs</h2>
 
-<p>The coronagraph was invented by <a href="https://en.wikipedia.org/wiki/Bernard_Lyot">Bernard Lyot</a> in 1930 to enable
-observations of the Sun's outer atmosphere. The faintly glowing extended
-gas in the sun's corona was only visible during a Solar eclipse by the
-Moon, and Lyot wanted to carry out observations without waiting years at
+<p>The coronagraph was invented by <a href="https://en.wikipedia.org/wiki/Bernard_Lyot">Bernard Lyot</a> in 1930 to enable observations of the Sun's outer atmosphere. The faintly glowing extended gas in the sun's corona was only visible during a Solar eclipse by the Moon, and Lyot wanted to carry out observations without waiting years at
 a time.</p>
 
 <p>The optical layout of his Lyot coronagraph is shown below:</p>
 
 {{ ::app:lyot_sketch.png?600 |}}
 
-<p>The telescope focuses light from both the star and the planet at the
-Focal Plane, where a mask then blocks out light from the star, but the
-planet (which is in a slightly different place on the sky) is not
-blocked by the mask. A lens takes the light from the FP and forms a
-Pupil Plane (PP). Here, the planet's pupil is an even disk of light, but
-for the star, the presence of the metal disk in the FP causes light to be
-redistributed into a series of bright rings. A mask with a diameter
-smaller than the full telescope pupil image diameter then blocks most of this
-scattered star light - this is called a Lyot stop. A second lens then
-reimages the pupil to form the final sky image on the detector.</p>
+<p>The telescope focuses light from both the star and the planet at the Focal Plane, where a mask then blocks out light from the star, but the planet (which is in a slightly different place on the sky) is not blocked by the mask. A lens takes the light from the FP and forms a Pupil Plane (PP). Here, the planet's pupil is an even disk of light, but for the star, the presence of the metal disk in the FP causes light to be redistributed into a series of bright rings. A mask with a diameter smaller than the full telescope pupil image diameter then blocks most of this scattered star light - this is called a Lyot stop. A second lens then reimages the pupil to form the final sky image on the detector.</p>
 
 <p>The Lyot coronagraph is simple, but it has several disadvantages: (i) If the star image is not kept centred on the metal disk, starlight "leaks" around the edge of the disk and into the rest of the coronagraph, increasing unwanted light and decreasing the signal to noise at the location of the planet. (ii) The Lyot stop blocks the outer edge of the telescope pupil, and so the angular resolution of the telescope is reduced - the planet image gets larger in diameter, and (iii) the total throughput of the coronagraph decreases due to the Lyot stop's smaller diameter, and there is a trade-off between throughput and contrast.</p>
 
-<p>Many coronagraphs are sensitive to pointing errors, and so require fast
-closed tip-tilt loops to ensure that the target star stays in the same
-position in the FP and so that the suppression works. By designing
-an optic that modifies only the phase in a pupil plane of a telescope,
-we remove this constraint. This Phase Apodization Coronagraphy (Codona
-and Angel 2004) is
-realised in the form of an <bold>Apodizing Phase Plate (APP)</bold> (Kenworthy et al.
-2007) coronagraph:</p>
+<p>Many coronagraphs are sensitive to pointing errors, and so require fast closed tip-tilt loops to ensure that the target star stays in the same position in the FP and so that the suppression works. By designing an optic that modifies only the phase in a pupil plane of a telescope,
+we remove this constraint. This Phase Apodization Coronagraphy (Codona and Angel 2004) is
+realised in the form of an <bold>Apodizing Phase Plate (APP)</bold> (Kenworthy et al. 2007) coronagraph:</p>
 
 {{ :app:app_sketch.png?600 |}}
 
-<p>By having no FP mask, there is no spurious diffraction in the PP.
-Instead there is the APP Coronagraph, which modifies the point spread
-function (PSF) of all objects in the field of view of the coronagraph.</p>
+<p>By having no FP mask, there is no spurious diffraction in the PP. Instead there is the APP Coronagraph, which modifies the point spread function (PSF) of all objects in the field of view of the coronagraph.</p>
 
 <p>The APP is completely insensitive to vibrations in the telescope and the AO system tip-tilt correction, it is a very simple coronagraph, consisting of only one opti, and the phase pattern is a smoothly varying function of position, with no discontinuities or vortex singularities. Mathematically ideal coronagraphs with these types of discontinuity are challenging to manufacture and can result in degradation of the coronagraphic null and reduced imaging performance.</p>
 
