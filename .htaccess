@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /~kenworthy/
+RewriteRule teaching_dol_2019 dol_2019.html [R=301,L]
+RewriteRule words_of_advice_for_young_researchers 'advice.html' [R=301,L]
+#Redirect 301 /oldfile.htm /newfile.htm
+#Redirect 301 /oldfile.htm /newfile.htm
+#Redirect 301 /oldfile.htm /newfile.htm
+#Redirect 301 /oldfile.htm /newfile.htm
+#Redirect 301 /oldfile.htm /newfile.htm
+#RewriteRule doku.php/nospeckles /nospeckles
+
