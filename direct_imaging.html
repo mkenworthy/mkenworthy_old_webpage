@@ -37,7 +37,11 @@ a time.</p>
 
 <p>The optical layout of his Lyot coronagraph is shown below:</p>
 
-{{ ::app:lyot_sketch.png?600 |}}
+       <figure>
+          <label for="mn-lyot" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-lyot" class="margin-toggle"/><span class="marginnote">Optical layout of a Lyot coronagraph.</span>
+          <img src="img/lyot_sketch.png" alt="Sketch of a Lyot coronagraph" />
+        </figure>
+
 
 <p>The telescope focuses light from both the star and the planet at the Focal Plane, where a mask then blocks out light from the star, but the planet (which is in a slightly different place on the sky) is not blocked by the mask. A lens takes the light from the FP and forms a Pupil Plane (PP). Here, the planet's pupil is an even disk of light, but for the star, the presence of the metal disk in the FP causes light to be redistributed into a series of bright rings. A mask with a diameter smaller than the full telescope pupil image diameter then blocks most of this scattered star light - this is called a Lyot stop. A second lens then reimages the pupil to form the final sky image on the detector.</p>
 
@@ -47,7 +51,10 @@ a time.</p>
 we remove this constraint. This Phase Apodization Coronagraphy (Codona and Angel 2004) is
 realised in the form of an <bold>Apodizing Phase Plate (APP)</bold> (Kenworthy et al. 2007) coronagraph:</p>
 
-{{ :app:app_sketch.png?600 |}}
+       <figure>
+          <label for="mn-app" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-app" class="margin-toggle"/><span class="marginnote">Optical layout of an APP coronagraph.</span>
+          <img src="img/app_sketch.png" alt="Sketch of an APP coronagraph" />
+        </figure>
 
 <p>By having no FP mask, there is no spurious diffraction in the PP. Instead there is the APP Coronagraph, which modifies the point spread function (PSF) of all objects in the field of view of the coronagraph.</p>
 
@@ -55,21 +62,22 @@ realised in the form of an <bold>Apodizing Phase Plate (APP)</bold> (Kenworthy e
 
 <p>The suppression in the dark zone, the Inner Working Angle and the encircled energy transmission are related, and have to be traded off against each other. For most designs we keep 60 to 70% of the encircled energy within the Airy disk of the PSF.</p>
 
-<p>The [[app|original APP coronagraph]] introduced phase variations in the wavefront using differing Optical Path Differences (OPDs) of Zinc Selenide. Since this is an inherently chromatic process, it restricted the bandwidth of the APP.</p>
+<p>The original APP coronagraph introduced phase variations in the wavefront using differing Optical Path Differences (OPDs) of Zinc Selenide. Since this is an inherently chromatic process, it restricted the bandwidth of the APP.</p>
 
-<p>Panchratam phase can be introduced using the fast axis orientation of a birefringent liquid crystal, which then introduces a phase retardance depending on the orientation of the fast axis. Working with Michael Escuti at NCSU, we can realise complex phase patterns that are not possible using the diamond turned Zinc Selenide technique. </p>
+<p>Panchratam phase can be introduced using the fast axis orientation of a birefringent liquid crystal, which then introduces a phase retardance depending on the orientation of the fast axis. Working with Michael Escuti at NCSU, we can then realise complex phase patterns that are not possible using the diamond turned Zinc Selenide technique. </p>
 
 <p>The liquid crystal layers are still chromatic, but multiple layers of liquid crystal can be added on top of each other and the layers align themselves automatically, building up a more achromatic sandwich. Typically three layers will make a 100% bandwidth coronagraph.</p>
 
-<p>We have tested this new Vector APP coronagraph in the laboratory at Leiden and we have demonstrated its performance over a 50% bandwidth with two layers ([[http://adsabs.harvard.edu/abs/2014OExpr..2230287O|Otten et al. 2014]], Optics Express).</p>
+<p>We have tested this new Vector APP coronagraph in the laboratory at Leiden and we have demonstrated its performance over a 50% bandwidth with two layers in <a href="papers/2014OExpr..2230287O.pdf">Otten et al. (2014), Optics Express</a>.</p>
 
-{{ :vapp:beautification_otten_70x70_crop.jpg?nolink&300 |}}
+       <figure>
+          <label for="mn-app_pol" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-app_pol" class="margin-toggle"/><span class="marginnote">Vector APP coronagraph viewed between two crossed polarisers under white light. Credit: Gilles Otten.</span>
+          <img src="img/app_crossed_pol.jpg" alt="Photograph of a vector APP coronagraph between two crossed polarisers" />
+        </figure>
 
-<p>The Figure shows the Vector APP between two crossed polarizers. The phase pattern of the APP is seen encoded as different colours.</p>
+<p>By using a combination of quarter wave retarder and Wollaston prism, two simultaneous PSFs with complementary dark holes are produced, along with the broadband performance, making this a highly robust coronagraph for exoplanet detection and characterization.</p>
 
-<p>By using a combination of Quarter wave retarder and Wollaston prism, two simultaneous PSFs with complementary dark holes are produced, along with the broadband performance, making this a highly robust coronagraph for exoplanet detection and characterization.</p>
-
-<p>The addition of a phase ramp in the APP phase pattern causes the two APP PSFs to split, with an additional third non-coronagraphic PSF appearing between the two. This PSF is called the leakage term, and is due to any deviations in performance from the liquid crystal layers acting as a half-wave plate. This optic therefore does not require any quarter wave plates or wollaston prism, and is therefore vers simple to install in any exoplanet camera.</p>
+<p>The addition of a phase ramp in the APP phase pattern causes the two APP PSFs to split, with an additional third non-coronagraphic PSF appearing between the two. This PSF is called the leakage term, and is due to any deviations in performance from the liquid crystal layers acting as a half-wave plate. This optic therefore does not require any quarter wave plates or Wollaston prism, and is therefore very simple to install in any exoplanet camera.</p>
 
 <p>We now build <bold>grating vector APPs (gvAPPs)</bold> for many large telescopes around the world, designed by Emiel Por, David Doelman, and Christoph Keller. We are carrying out observational programs with these high contrast coronagraphs.</p>
 
