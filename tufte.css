@@ -274,3 +274,19 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             label { cursor: pointer; }
                             div.table-wrapper, table { width: 85%; }
                             img { width: 100%; } }
+
+
+/* madness added for scrolly thing */
+
+/* https://www.w3schools.com/howto/howto_js_sticky_header.asp */
+
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #FFF;
+  color: #111111;
+   position: fixed;
+  top: 0;
+  width: 100%;
+            z-index: 999
+}
