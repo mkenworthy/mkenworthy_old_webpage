@@ -282,13 +282,13 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 /* Style the header */
 .header {
-  padding: 20px 16px;
+  padding: 5px 16px;
   font-variant: small-caps;
   font-size: 1.5em;
-  background: #FFF;
+  background: #fffff8;
   color: #111111;
    position: fixed;
   top: 0;
-  width: 100%;
+  width: 80%;
             z-index: 999
 }
