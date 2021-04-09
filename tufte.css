@@ -41,10 +41,11 @@ body { width: 87.5%;
        counter-reset: sidenote-counter; }
 
 h1 { font-weight: 400;
-     margin-top: 4rem;
+     margin-top: 2rem;
      margin-bottom: 1.5rem;
-     font-size: 3.2rem;
-     line-height: 1; }
+     font-size: 3.0rem;
+     line-height: 1;
+     color: #c55 }
 
 h2 { font-style: italic;
      font-weight: 400;
@@ -281,6 +282,9 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 /* https://www.w3schools.com/howto/howto_js_sticky_header.asp */
 
 /* Style the header */
+
+/*
+
 .header {
   padding: 5px 16px;
   font-variant: small-caps;
@@ -291,4 +295,150 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   top: 0;
   width: 80%;
             z-index: 999
+}
+
+*/
+
+
+/* https://codepen.io/mutedblues/pen/MmPNPG */
+
+/* body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+a {
+  color: #000;
+} */
+
+/* header */
+
+.headerb {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.headerb ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.headerb li a {
+  display: block;
+  padding: 10px 10px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.headerb li a:hover,
+.headerb .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.headerb .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.headerb .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.headerb .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.headerb .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.headerb .menu-icon .navicon:before,
+.headerb .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.headerb .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.headerb .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.headerb .menu-btn {
+  display: none;
+}
+
+.headerb .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.headerb .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.headerb .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.headerb .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.headerb .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.headerb .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .headerb li {
+    float: left;
+  }
+  .headerb li a {
+    padding: 20px 30px;
+  }
+  .headerb .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .headerb .menu-icon {
+    display: none;
+  }
 }
