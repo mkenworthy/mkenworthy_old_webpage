@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Raisin Dettre</title>
-    <link rel="stylesheet" href="../tufte.css"/>
-    <link rel="stylesheet" href="../latex.css"/>
-    <link rel="stylesheet" href="../tufte_navbar.css"/>
+<head>
+  <meta charset="utf-8"/>
+  <title>Raisin Dettre</title>
+  <link rel="stylesheet" href="../tufte.css"/>
+  <link rel="stylesheet" href="../latex.css"/>
+  <link rel="stylesheet" href="../tufte_navbar.css"/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
 
-  <body>
-      <header class="header">
-        <a href="../index.html" class="logo">Home</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-          <li><a href="../papers/">Papers</a></li>
-          <li><a href="../research/">Research</a></li>
-          <li><a href="../teaching/">Teaching</a></li>
-          <li><a href="../outreach/">Talks and Outreach</a></li>
-          <li><a href="../advice.html">Unsolicited Advice</a></li>
-        </ul>
-      </header>
+<body>
+  <header class="header">
+    <a href="../index.html" class="logo">Home</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../papers/">Papers</a></li>
+      <li><a href="../research/">Research</a></li>
+      <li><a href="../teaching/">Teaching</a></li>
+      <li><a href="../outreach/">Talks and Outreach</a></li>
+      <li><a href="../advice.html">Unsolicited Advice</a></li>
+    </ul>
+  </header>
 
+  <article>
+    <h1>Raisin Dettre</h1>
+    <section>
+      <div class="epigraph" cite="https://prod-ng.sandia.gov/techlib-noauth/access-control.cgi/1992/921382.pdf">
+        <blockquote>
+          <p>This place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.</p>
+          <p>What is here is dangerous and repulsive to us. This message is a warning about danger.</p>
+          <footer><a href="https://prod-ng.sandia.gov/techlib-noauth/access-control.cgi/1992/921382.pdf">Sandia Report SANDIA92-1382 "Expert Judgement on Markers to Deter Inadvertent Human Intrusion into the Waste Isolation Pilot Plant"</a>, Trauth, Hora and Guzowski, 1993, Page F-49.</footer>
+        </blockquote>
+      </div>
 
-    <article>
-<h1>Raisin Dettre</h1>
-<section>
-<div class="epigraph" cite="https://prod-ng.sandia.gov/techlib-noauth/access-control.cgi/1992/921382.pdf">
-  <blockquote>
-    <p>This place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.</p>
-    <p>What is here is dangerous and repulsive to us. This message is a warning about danger.</p>
-            <footer><a href="https://prod-ng.sandia.gov/techlib-noauth/access-control.cgi/1992/921382.pdf">Sandia Report SANDIA92-1382 "Expert Judgement on Markers to Deter Inadvertent Human Intrusion into the Waste Isolation Pilot Plant"</a>, Trauth, Hora and Guzowski, 1993, Page F-49.</footer>
-  </blockquote>
-  </div>
+      <p>The web died several years ago, but like any giant dinosaur it takes time for the signal to make it up to the brain. I wrote my first web page back in 1995 or so, and I&rsquo;ve treated it as a public place to occasionally put my thoughts, mostly lots of photos and essays for when I lived in America and I wanted to share my stories with relatives and friends back home, before Facebook or Instagram existed. So far, so 1990&rsquo;s.</p>
 
-        <p>The web died several years ago, but like any giant dinosaur it takes time for the signal to make it up to the brain. I wrote my first web page back in 1995 or so, and I&rsquo;ve treated it as a public place to occasionally put my thoughts, mostly lots of photos and essays for when I lived in America and I wanted to share my stories with relatives and friends back home, before Facebook or Instagram existed. So far, so 1990&rsquo;s.</p>
+      <p>Nowadays, it is where I present all my research to the rest of the world, put digital copies of all my publications that are otherwise stuck behind paywalls, where I host my teaching materials for courses at Leiden Observatory, and is the public face for workshops and meetings that I've organised.</p>
 
-        <p>Nowadays, it is where I present all my research to the rest of the world, put digital copies of all my publications that are otherwise stuck behind paywalls, where I host my teaching materials for courses at Leiden Observatory, and is the public face for workshops and meetings that I've organised.</p>
+      <p>Starting with writing HTML from scratch, I&rsquo;ve gone through my own custom scripts in Perl, a blog system based on the bash shell, then settled on dokuwiki to serve Markdown pages in a pleasing format for almost a decade. I have been using org mode in Emacs for all my calendar appointments and scheduling, and since Emacs has a large hacker community supporting its development, there is inevitably an option to write org pages and have them be exported to HTML. I&rsquo;ve been a long time enthusiast of Edward Tufte&rsquo;s books on style and graphics, liking the relative simplicity and clean style, so when I discovered <a href="https://github.com/edwardtufte/tufte-css">Tufte CSS</a><label for="sn-moi" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moi" class="margin-toggle"/><span class="sidenote">Pretentious, moi?</span>, I then set about getting emacs, org-mode, ox-tufte and tufte-css to play nicely together. It all appealed to the geek in me, but strangely enough I never seemed to get around to putting the results on the web.</p>
 
-        <p>Starting with writing HTML from scratch, I&rsquo;ve gone through my own custom scripts in Perl, a blog system based on the bash shell, then settled on dokuwiki to serve Markdown pages in a pleasing format for almost a decade. I have been using org mode in Emacs for all my calendar appointments and scheduling, and since Emacs has a large hacker community supporting its development, there is inevitably an option to write org pages and have them be exported to HTML. I&rsquo;ve been a long time enthusiast of Edward Tufte&rsquo;s books on style and graphics, liking the relative simplicity and clean style, so when I discovered <a href="https://github.com/edwardtufte/tufte-css">Tufte CSS</a><label for="sn-moi" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moi" class="margin-toggle"/><span class="sidenote">Pretentious, moi?</span>, I then set about getting emacs, org-mode, ox-tufte and tufte-css to play nicely together. It all appealed to the geek in me, but strangely enough I never seemed to get around to putting the results on the web.</p>
+      <p>Then, late one evening, I had a revelation: Why the hell was I faffing around with a pile of not-quite-stable tools when I can write HTML by hand instead? Life&rsquo;s simply too short to waste on tweaking computer scripts to make a web page. Write stuff, put it on the web. Job done.</p>
 
-        <p>Then, late one evening, I had a revelation: Why the hell was I faffing around with a pile of not-quite-stable tools when I can write HTML by hand instead? Life&rsquo;s simply too short to waste on tweaking computer scripts to make a web page. Write stuff, put it on the web. Job done.</p>
+      <p>So that's what I&rsquo;m going back to. This is all written in HTML<label for="sn-atom" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-atom" class="margin-toggle"/><span class="sidenote">Well, I&rsquo;m using the <a href="https://atom.io/">Atom editor</a> which makes closing the tags and checking this into my GitHub account very easy.</span> with Tufte CSS by <a href="https://www.daveliepmann.com">Dave Liepmann</a> for styling, and synced up to the web server space at work. I&rsquo;ll get back to coding for astronomy projects and papers, and more time for making bread.</p>
 
-        <p>So that's what I&rsquo;m going back to. This is all written in HTML<label for="sn-atom" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-atom" class="margin-toggle"/><span class="sidenote">Well, I&rsquo;m using the <a href="https://atom.io/">Atom editor</a> which makes closing the tags and checking this into my GitHub account very easy.</span> with Tufte CSS by <a href="https://www.daveliepmann.com">Dave Liepmann</a> for styling, and synced up to the web server space at work. I&rsquo;ll get back to coding for astronomy projects and papers, and more time for making bread.</p>
+      <p>All mistakes on these pages are my own. If you do decide to use any part of these web pages in presentations, please include a link to this page or at the very minimum, add &ldquo;M. Kenworthy&rdquo; somewhere visible.</p>
 
-        <p>All mistakes on these pages are my own. If you do decide to use any part of these web pages in presentations, please include a link to this page or at the very minimum, add &ldquo;M. Kenworthy&rdquo; somewhere visible.</p>
-
-        <p>Last updated about April 2021.</p>
-</section>
-</article>
+      <p>Last updated about April 2021.</p>
+    </section>
+  </article>
 </body>
 </html>
