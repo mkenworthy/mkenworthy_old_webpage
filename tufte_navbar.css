@@ -1,3 +1,15 @@
+/* https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
+
+.anch is added so that when you click to a link in a page, it moves down 80px so that you can see the anchor point
+ <h1 class="anch" id="blah">This will be positioned under the menu bar</h1>
+ */
+.anch {
+    /* places the contents of the element 100px from the top of the view-port */
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+/* This hamburger menu bar was based on: https://codepen.io/mutedblues/pen/MmPNPG */
 
 /* header */
 
