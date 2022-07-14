@@ -1,0 +1,2 @@
+Detection sensitivity in spectra of Beta Pictoris
+Sensitivity of the spectroscopic transit search method applied to Beta Pictoris, showing that Saturn radius exoplanets can be recovered from high spectral resolution spectra of rapidly rotating stars without need for refernce star observations. 

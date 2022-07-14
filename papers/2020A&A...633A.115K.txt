@@ -1,0 +1,2 @@
+ALMA source detection towards the young star J1407
+An unresolved point source seen by ALMA towards the young star J1407. The detection may be a giant exoring system heated by its central source. The star is not seen at these wavelengths and sensitivities. 

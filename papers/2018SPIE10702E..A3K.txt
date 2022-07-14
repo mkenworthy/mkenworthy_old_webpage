@@ -1,0 +1,2 @@
+Tube map of METIS with APP coronagraph
+An abstracted layout of the optical path of METIS, an instrument for the European Extremely Large Telescope. The grating vector Apodizing Phase Plate locations are shown. 

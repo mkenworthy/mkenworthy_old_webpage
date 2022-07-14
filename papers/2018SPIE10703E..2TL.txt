@@ -1,0 +1,2 @@
+Image of Sirius at 4 microns using a gvAPP phase plate
+The star Sirius imaged using the gvAPP coronagraph on the MagAO system with Clio2, showing the two coronagraphic and one leakage term PSFs.

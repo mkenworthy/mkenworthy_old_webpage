@@ -1,0 +1,2 @@
+Lightcurve of a periodic eclipse from Kepler
+The periodic brightening and dimming of a star in Kepler can be modeled as the transit of a close-in planet with a circumplanetary disk that shows forward scattering. 

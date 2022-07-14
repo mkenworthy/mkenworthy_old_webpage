@@ -1,0 +1,2 @@
+Detailed light curve of J1407
+The nightly variation of the light curve of J1407 from 2007, showing strong linear changes in flux from night to night from 

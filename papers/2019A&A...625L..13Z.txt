@@ -1,0 +1,2 @@
+Data of Beta Pictoris from TESS with exocomet model overplotted
+Light curve of Beta Pictoris as seen by TESS. The stellar pulsations of the star have been removed, revealing the shark's tooth transit profile of an exocomet. The black vertical bars show the photometric error bar per data point. The red line is a model of an exocomet fit to the TESS data, and the residuals after the model has been removed are shown in the lower panel. 

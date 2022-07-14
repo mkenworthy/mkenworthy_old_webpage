@@ -1,0 +1,2 @@
+Simulations of debris disk collisions in Fomalhaut
+Simulation of expanding clouds from collisions in the debris disk around Fomalhaut, which can be detected by looking at the light from a background star moving behind the disk as seen in 
