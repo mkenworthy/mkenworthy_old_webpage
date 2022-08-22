@@ -1,0 +1,2 @@
+Relative sizes and geometries of three transiting circumsecondary disks
+Three circumsecondary disks have been discovered in transit in Kepler satellite photometry data. These disks are not much larger than their stars, almost certainly with a substellar companion holding them in place. The apparent longevity of these disks is still to be explained.

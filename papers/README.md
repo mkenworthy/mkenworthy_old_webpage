@@ -11,6 +11,21 @@ Pushing papers to belterwijde:
 
     rsync -rva *.pdf kenworthy@belterwijde.strw.leidenuniv.nl:public_html/papers/.
 
+## Building database
+
+Building the database from an ADS library that are already generated:
+
+    python lib_2_csv.py
+
+This generates a list of the ADS bibcodes from the default library specified in the above script:
+
+    kenworthy_ads_lib.csv
+
+Generate the `index.html` with:
+
+    python make_page.py
+
+## Converting from the old format
 
 Making the page using `python make_page.py`
 
