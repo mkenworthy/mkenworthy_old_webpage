@@ -5,6 +5,24 @@ Modified by M Kenworthy for single library use
 https://github.com/adsabs/ads-examples/blob/master/library_csv/lib_2_csv.py
 """
 
+# NOTE: if you get an error:
+# Traceback (most recent call last):
+#  File "lib_2_csv.py", line XXXX, in <module>
+#    libraries = get_libraries()
+#  File "lib_2_csv.py", line XXXX, in get_libraries
+#    data = r.json()['libraries']
+#KeyError: 'libraries'
+#
+# ....then you may have an invalid or old ADS key in ~/.ads/dev_dey
+#
+# so try getting a new key from:
+#
+# https://ui.adsabs.harvard.edu/user/settings/token
+#
+# and put that in dev_key
+#
+
+
 import os
 import math
 import requests
