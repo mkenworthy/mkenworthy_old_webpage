@@ -147,3 +147,21 @@
     display: none;
   }
 }
+@media (min-width: 970px) {
+  header.header {
+    position: sticky;
+    top: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    align-items: center;
+  }
+  header.header ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.5em;
+  }
+}
+
